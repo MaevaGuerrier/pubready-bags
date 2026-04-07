@@ -1,3 +1,5 @@
+# WIP. 
+
 **Rosbags - Source Code Mirror**
 This repository serves as the official GitHub mirror for the primary repository hosted on GitLab at https://gitlab.com/ternaris/rosbags.
 
@@ -5,7 +7,7 @@ This repository serves as the official GitHub mirror for the primary repository 
 
 ROS2 is now the prefered ros version to use, however we provides the following:
 
-- *Based on rosbags by [Ternaris](https://gitlab.com/ternaris/rosbags) (Apache-2.0).* We provides a ready to go python enviornment and pipline to convert ros2bags into ros2bags.
+- *Based on rosbags by [Ternaris](https://gitlab.com/ternaris/rosbags) (Apache-2.0).* We provides a ready to go python enviornment and pipeline to convert ros2bags into ros2bags.
 - Publication ready bags: somoenes photobomb you bag recording, no worries you can just blured their faces with our pipeline **TODO**
 
 # Usage WIP 
