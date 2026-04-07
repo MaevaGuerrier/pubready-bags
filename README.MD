@@ -1,6 +1,6 @@
 # 📦 pubready-bags
 
-> **Convert, clean, and publish your ROS bags PUBLICATION READY.**
+> **Convert and publish your ROS bags PUBLICATION READY.**
 
 A Python pipeline built on top of [rosbags by Ternaris](https://gitlab.com/ternaris/rosbags) that helps roboticists prepare their bag recordings for public release — from format conversion to privacy-safe anonymization.
 
@@ -43,6 +43,8 @@ Place the ROS2 bags inside the folder **ros2bags**
 
 ```
 ./convert_ros2_to1.sh
+```
+
 ---
 
 ## 🔄 ROS 2 → ROS 1 Conversion
@@ -52,6 +54,8 @@ Just place the ROS1 bagfiles under **ros1bags** folder and run the following:
 
 ```
 ./convert_ros1_to2.sh
+```
+
 ---
 
 ## 🙈 Face Anonymization *(coming soon)*
