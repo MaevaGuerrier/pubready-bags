@@ -10,7 +10,7 @@ A Python pipeline built on top of [rosbags by Ternaris](https://gitlab.com/terna
 
 | Feature | Status |
 |---|---|
-| 🔄 Convert ROS 1 bags → ROS 2 bags | ✅ Ready |
+| 🔄 Convert ROS 2 bags → ROS 1 bags | ✅ Ready |
 | 🙈 Blur human faces for publication | 🚧 Coming soon |
 
 ---
