@@ -10,8 +10,9 @@ A Python pipeline built on top of [rosbags by Ternaris](https://gitlab.com/terna
 
 | Feature | Status |
 |---|---|
-| 🔄 Convert ROS 2 bags → ROS 1 bags | ✅ Ready |
+| 🔄 Convert ROS 2 bags → ROS 1 bags  | ✅ Ready |
 | 🙈 Blur human faces for publication | 🚧 Coming soon |
+| 🖥️ Visualizer in your terminal      | 🚧 Coming soon |
 
 ---
 
@@ -88,7 +89,7 @@ New code contributed in this repository is released under **Apache-2.0** © Maev
 
 ## 🙏 Acknowledgements
 
-A big thank you to **[Ternaris](https://gitlab.com/ternaris)** for building and open-sourcing [rosbags](https://gitlab.com/ternaris/rosbags) — Pure Python library to read, modify, convert, and write rosbag files..
+A big thank you to **[Ternaris](https://gitlab.com/ternaris)** for building and open-sourcing [rosbags](https://gitlab.com/ternaris/rosbags) — Pure Python library to read, modify, convert, and write rosbag files.
 
 ---
 
