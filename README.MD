@@ -11,6 +11,7 @@ A Python pipeline built on top of [rosbags by Ternaris](https://gitlab.com/terna
 | Feature | Status |
 |---|---|
 | 🔄 Convert ROS 2 bags → ROS 1 bags  | ✅ Ready |
+| 🔄 Convert ROS 1 bags → ROS 2 bags  | ✅ Ready |
 | 🙈 Blur human faces for publication | 🚧 Coming soon |
 | 🖥️ Visualizer in your terminal      | 🚧 Coming soon |
 
@@ -38,20 +39,19 @@ pip install -r requirements.txt
 ## 🔄 ROS 2 → ROS 1 Conversion
 
 This pipeline is intended as a migration helper for teams that have not yet transitioned away from ROS 1. [ROS 2](https://github.com/ros2) is the only actively supported version.
-
-```bash
-rosbags-convert \ 
---src ros2bags/{bag_name} \ 
---src-typestore ros2_humble \ 
---dst ros1bags/{bag_name}.bag \ 
---dst-typestore ros1_noetic
-
-or 
-
-rosbags-convert --src ros2bags/{bag_name} --src-typestore ros2_humble --dst ros1bags/{bag_name}.bag --dst-typestore ros1_noetic
+Place the ROS2 bags inside the folder **ros2bags**
 
 ```
+./convert_ros2_to1.sh
+---
 
+## 🔄 ROS 2 → ROS 1 Conversion
+
+You want to use existing datasets that are ros1 based but your pipelines are ROS2 based?
+Just place the ROS1 bagfiles under **ros1bags** folder and run the following:
+
+```
+./convert_ros1_to2.sh
 ---
 
 ## 🙈 Face Anonymization *(coming soon)*
